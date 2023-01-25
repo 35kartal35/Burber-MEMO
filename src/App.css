@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  border: 1px solid;
+  background-color: orangered;
+  box-shadow: 3px 3px 3px;
+}
+
+.headerlink{
+  color: black;
+  margin: 10px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  margin: 5px;
+  position: relative;
+  bottom: 0;
+  background-color: orangered;
+  width: 100%;
+
+  padding: 1px;
+  
+}
+
+.homecontainer{
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeheader{
+  font-size: 90px;
+  height: 60px;
+  font-weight: 50;
+  color: white;
+}
+
+.homeheader p{
+  font-size: 40px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 15px;
+
+}
+
+.homeheader button{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  height: 50px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.menu{
+  width: 100%;
+  text-align: center;
+  background-color: #2CB978;
+  padding: 20px;
+  height: 130vh;
+  
+}
+.menuTitle{
+  font-size: 35px;
+}
+.menuList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.menuItem{
+  background-color: #83E85A;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+.menuItem:hover{
+  transform: scale(1.02);
+  opacity: .9;
+}
+.menuItem img{
+  width: 340px;
+  height: 250px;
+}
+.menuItem h3{
+  font-size: 25px;
+  color: black;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.menuItem p{
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+@media (max-width:600px) {
+  .menu{
+    padding: 5px;
+  }
+  .menuItem{
+    width: 180px;
+    height: 180px;
+  }
+  .menuItem img{
+    width: 160px;
+    height: 80px;
+   
+  }
+}
+@media (max-width:400px) {
+  .menu{
+    padding: 2px;
+  }
+  .menuItem{
+    width: 150px;
+    height: 150px;
+  }
+  .menuItem img{
+    width: 130px;
+    height: 50px;
+  }
+}
