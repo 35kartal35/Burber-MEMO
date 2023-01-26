@@ -6,6 +6,7 @@ const Home=()=>{
     return(
         <div className="homecontainer" style={{backgroundImage: `url(${BannerImage})`}}>
            <div className="homeheader">
+
             <h1 >
                 MEMO
             </h1>

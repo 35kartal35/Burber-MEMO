@@ -3,6 +3,7 @@ import Logo from "../assets/hamburgerlogo.png";
 import { Link } from "react-router-dom";
 
 
+
 const Header=()=>{
     return(
         <div className="header">
@@ -18,6 +19,10 @@ const Header=()=>{
                 <Link className="headerlink" to={"/"}>Home</Link>
 
                 <Link className="headerlink" to={"/menu"}>Menü</Link>
+
+                <Link className="headerlink" to={"/about"}>About</Link>
+
+                <Link className="headerlink" to={"/contact"}>Contact</Link>
 
             </h1>
         </div>
