@@ -14,7 +14,7 @@ const Header=()=>{
         <div>
         <h1>BURBERMEMO</h1>
         </div>
-        <div>
+        <div className="rightSide">
             <h1>
                 <Link className="headerlink" to={"/"}>Home</Link>
 
